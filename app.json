@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "newsheryians",
+    "slug": "newsheryians",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/channels4_profile.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splashScreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/channels4_profile.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.srappltd.newsheryians"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c203e82a-2e0f-4fbf-92bb-619b88746ddd"
+      }
+    }
+  }
+}
