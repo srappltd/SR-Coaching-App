@@ -39,7 +39,7 @@ const ProfileScreen = () => {
                     <Text style={{ fontSize: 13, fontWeight: "500", color: "rgba(70, 70, 70, 1)" }}>My Download</Text>
                 </TouchableOpacity>
                 {/* // edit profile  */}
-                <TouchableOpacity style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+                <TouchableOpacity onPress={()=>navigate.navigate('EditProfile')} style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
                     <AntDesign name="edit" size={24} color="rgba(70, 70, 70, 1)" />
                     <Text style={{ fontSize: 13, fontWeight: "500", color: "rgba(70, 70, 70, 1)" }}>Edit</Text>
                 </TouchableOpacity>

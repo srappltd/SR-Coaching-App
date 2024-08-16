@@ -83,7 +83,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.newsheryians"
+    namespace 'com.srappltd.newsheryians'
     defaultConfig {
         applicationId 'com.srappltd.newsheryians'
         minSdkVersion rootProject.ext.minSdkVersion

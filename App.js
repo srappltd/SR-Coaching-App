@@ -14,6 +14,7 @@ import { StatusBar } from 'expo-status-bar';
 import { asyncInit } from './store/actions/authToken';
 import PlaylistVIdeos from './screens/PlaylistVIdeos';
 import ProfileScreen from './screens/ProfileScreen';
+import EditProfile from './screens/EditProfile';
 
 const Stack = createStackNavigator()
 
@@ -28,6 +29,7 @@ const MyStack = () => {
         <Stack.Screen name='Play' options={{headerTitle:"",headerShown:false}} component={ViewVideo}/>
         <Stack.Screen name='Comments' component={CommentScreen}/>
         <Stack.Screen name='Profile' component={ProfileScreen} options={{headerTitle:"My Profile",headerTitleAlign:"center"}} />
+        <Stack.Screen name='EditProfile' component={EditProfile} options={{headerTitle:"Edit Profile",headerTitleAlign:"center"}} />
     </Stack.Navigator>
     </>
   );
